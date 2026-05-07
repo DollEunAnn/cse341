@@ -10,6 +10,7 @@ const getData = async () => {
   displayAllData(data);
 };
 
+
 function displayAllData(data) {
   displayProfessionalName(data.professionalName);
   displayImage(data.base64Image);
